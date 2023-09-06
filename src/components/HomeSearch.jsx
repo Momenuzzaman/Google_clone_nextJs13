@@ -38,6 +38,7 @@ const HomeSearch = () => {
         />
         <BsFillMicFill className="text-lg text-gray-500 " />
       </form>
+      {/* button */}
       <div className="mt-8 flex flex-col space-y-2 sm:space-y-0 sm:flex-row sm:space-x-3">
         <button onClick={handleSubmit} className="btn">
           Google Search
