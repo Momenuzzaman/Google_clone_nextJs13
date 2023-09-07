@@ -20,7 +20,7 @@ const SearchBox = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex items-center border border-gray-200 rounded-full shadow-lg px-6 py-2 sm:ml-10 mr-5 max-w-3xl flex-grow"
+      className="flex items-center border border-gray-200 rounded-full shadow-lg px-6 py-2 sm:ml-10 sm:mr-5 max-w-3xl flex-grow"
     >
       <input
         type="text"
