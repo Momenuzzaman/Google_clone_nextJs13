@@ -10,9 +10,9 @@ const Footer = () => {
       >
         <CountryLookup />
       </div>
-      <div className="flex flex-col sm:flex-row  justify-between items-center space-y-7 sm:space-y-0 px-8 py-3">
+      <div className="flex flex-col sm:flex-row  justify-between items-center space-y-7 sm:space-y-0  py-5 md:px-8 py-3">
         {/* left side */}
-        <ul className="flex items-center space-x-6">
+        <ul className="flex items-center space-x-4 md:space-x-6">
           <li className="link ">About</li>
           <li className="link">Advertising</li>
           <li className="link">Business</li>

@@ -27,7 +27,6 @@ const WebSearchPage = async ({ searchParams }) => {
       </div>
     );
   }
-  console.log(results);
   return <div>{results && <WebSearchResults results={data} />}</div>;
 };
 
