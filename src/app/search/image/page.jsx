@@ -3,6 +3,11 @@ import ImageSearchResults from "@/components/ImageSearchResults";
 import Link from "next/link";
 import React from "react";
 
+export const metadata = {
+  title: "Image | Google Clone",
+  description: "Image Page",
+};
+
 const ImageSearchPage = async ({ searchParams }) => {
   const startIndex = searchParams.start || "1";
 

@@ -4,6 +4,11 @@ import WebSearchResults from "@/components/WebSearchResults";
 import Link from "next/link";
 import React from "react";
 
+export const metadata = {
+  title: "Web | Google Clone",
+  description: "Web Page",
+};
+
 const WebSearchPage = async ({ searchParams }) => {
   const startIndex = searchParams.start || "1";
 
