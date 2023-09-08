@@ -1,13 +1,13 @@
 import Link from "next/link";
 import React from "react";
+import PaginationButton from "./PaginationButton";
 
 const ImageSearchResults = ({ results }) => {
-  console.log("Results :", results);
   return (
-    <div className="pb-48 mt-3 ">
+    <div className="pb-40  mt-3 ">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-3 space-x-4">
         {results?.items.map((result) => (
-          <div key={result.link}>
+          <div key={result.link} className="mb-8">
             <div className="group">
               <Link href={result.image.contextLink}>
                 <img
@@ -29,6 +29,9 @@ const ImageSearchResults = ({ results }) => {
             </div>
           </div>
         ))}
+      </div>
+      <div className=" sm:ml-16">
+        <PaginationButton />
       </div>
     </div>
   );
